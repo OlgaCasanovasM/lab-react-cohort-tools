@@ -32,7 +32,7 @@ function HomePage() {
       {students &&
         students.map((student) => {
           return (
-            <NavLink to="/students/:studentId">
+            <NavLink to="/students/:studentsLink">
               <StudentCard key={student._id} {...student} />
             </NavLink>
           );
